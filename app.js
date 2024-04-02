@@ -18,3 +18,6 @@ let obj = {
   id: 1,
   name: "hello",
 };
+
+let keys = Object.keys(obj) + 5;
+console.log(keys);
